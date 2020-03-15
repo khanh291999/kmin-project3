@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <style>
+      .cv-left {
+      background-color: #faf8ff;
+      }
+      body {
+        position: relative;
+      }
+      ul.nav-pills {
+        top: 20px;
+        position: fixed;
+      }
+      div.col-8 div {
+        height: 500px;
+      }
+      section {
+        height: 100vh;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+         color: #fff;
+        background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+      }
+      
+      a > i {
+        font-size: 30px;
+        padding: 2rem;
+        color:#4458dc;
+       }
+
+       h1{
+         font-size: 60px;
+       }
+
+       p{
+         font-size: 30px;
+       }
+
+       .font-roboto{
+         font-family: 'Roboto', cursive;
+       }
+    </style>
+  </head>
+  <body data-spy="scroll" data-target="#myScrollspy" data-offset="1">
+    <div class="container-fluid">
+      <div class="row">
+        <nav
+          class="cv-left col-sm-2 col-4 d-flex justify-content-center text-align-center"
+          id="myScrollspy"
+        >
+          <ul class="nav nav-pills flex-column">
+            <li class="nav-item">
+              <a class="" href="">
+                <img
+                  style="width: 100px;"
+                  class="img-fluid img-profile rounded-circle mx-auto mb-2"
+                  src="./img/avatar.jpg"
+                  alt=""
+              /></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#interests">Interests</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="col-sm-10 col-8">
+          <section id="about" class=" p-5 d-flex align-items-center">
+            <div>
+              <h1 class="font-roboto">Đỗ Quốc Khánh</h1>
+              <p class="pt-3 font-roboto">
+                I am experienced in leveraging agile frameworks to provide a
+                robust synopsis for high level overviews. Iterative approaches
+                to corporate strategy foster collaborative thinking to further
+                the overall value proposition.
+              </p>
+              <div class="social">
+                <a href="https://www.facebook.com/quockhanh1999"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/q_khanh__/?hl=vi"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCqOR78gama4qVAdAqmn3jVw?view_as=subscriber"><i class="fab fa-youtube"></i></a>
+                <a href="https://twitter.com/?lang=vi"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+          </section>
+          <section id="experience" class="p-5 d-flex align-items-center">
+            <div>
+            <h1 class="font-roboto">Experience</h1>
+            <p class="pt-3 font-roboto">SENIOR WEB DEVELOPER</p>
+            <p class="pt-3 font-roboto">INTELITEC SOLUTIONS</p>
+            <p class="pt-3 font-roboto">
+              Bring to the table win-win survival strategies to ensure proactive
+              domination. At the end of the day, going forward, a new normal
+              that has evolved from generation X is on the runway heading
+              towards a streamlined cloud solution. User generated content in
+              real-time will have multiple touchpoints for offshoring.
+            </p>
+          </div>
+          </section>
+          <section id="education" class="p-5 d-flex align-items-center">
+         <div>
+          <h1 class="font-roboto">Education</h1>
+          <p class="pt-3 font-roboto">
+            University of Technology and Education
+          </p class="pt-3 font-roboto">
+          <p class="pt-3 font-roboto">Information Security</p>
+        </section>
+        <section id="skills" class="p-5 d-flex align-items-center">
+        <div>
+          <h1>Skills</h1>
+          <p class="pt-3 font-roboto">
+            PROGRAMMING LANGUAGES & TOOLS
+          </p>
+          <div class="social">
+            <a href="#"><i class="fab fa-html5"></i></a>
+            <a href="#"><i class="fab fa-css3-alt"></i></a>
+            <a href="#"><i class="fab fa-js-square"></i></a>
+            <a href="#"><i class="fab fa-cuttlefish"></i></a>
+          </div>
+         </div>
+          </section>
+          <section id="interests" class="p-5 d-flex align-items-center">
+            <div>
+            <h1 class="font-roboto">Interests</h1>
+            <p class="pt-3 font-roboto">
+              Apart from being a web developer, I enjoy most of my time being
+              outdoors. In the winter, I am an avid skier and novice ice
+              climber. During the warmer months here in Colorado, I enjoy
+              mountain biking, free climbing, and kayaking. When forced indoors,
+              I follow a number of sci-fi and fantasy genre movies and
+              television shows, I am an aspiring chef, and I spend a large
+              amount of my free time exploring the latest technology
+              advancements in the front-end web development world.
+            </p>
+        </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
